@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:rating">5</item>
+        <item name="android:progressDrawable">@drawable/food_rating_bar_full</item>
+        <item name="android:indeterminateDrawable">@drawable/food_rating_bar_full</item>
+
+        <item name="android:minHeight">23dp</item>
+        <item name="android:maxHeight">23dp</item>
+    </style>
+
+</resources>
